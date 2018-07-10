@@ -5,7 +5,7 @@ The [Nekos.moe](https://nekos.moe/) API allows developers to provide the same fe
 ## Using the API
 
 ::: warning
-The Nekos.moe API is still in development, so breaking changes may happen with little warning
+The Nekos.moe API is still in development. Breaking changes may happen with little warning
 :::
 
 All API request use the base URL `https://nekos.moe/api/{version}/`
