@@ -46,7 +46,10 @@ function genSidebarConfig() {
 			collapsable: false,
 			children: [
 				'',
-				'auth'
+				'structures',
+				'errors',
+				'auth',
+				'images'
 			]
 		}
 	]
