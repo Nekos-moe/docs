@@ -53,7 +53,7 @@ Content-Type: application/json
 
 ## Search images
 
-Returns the requested number of random [Images](structures.html#post-image-data).
+Search for [Images](structures.html#post-image-data).
 
 Body fields:
 

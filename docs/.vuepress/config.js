@@ -49,7 +49,8 @@ function genSidebarConfig() {
 				'structures',
 				'errors',
 				'auth',
-				'images'
+				'images',
+				'users'
 			]
 		}
 	]
