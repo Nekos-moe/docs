@@ -4,7 +4,7 @@ module.exports = {
 	head: [
 		['link', {
 			rel: 'icon',
-			href: `/logo.png`
+			href: `/logo.jpg`
 		}],
 		['meta', {
 			name: 'theme-color',

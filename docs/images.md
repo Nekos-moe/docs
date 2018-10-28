@@ -7,7 +7,7 @@ These routes allow you to access and modify posts.
 Returns an [Image](structures.html#post-image-data) matching the given ID.
 
 ```http
-GET /image/{id}
+GET /images/{id}
 ```
 
 **Ratelimit:** 5/10s
@@ -105,8 +105,8 @@ Form fields:
 | tags | Array\<String\> | true |
 
 *Image can be up to 3 MB and must be a png or jpg/jpeg file   \
-*Artist can be up to 60 characters   \
-*Tags can be up to 50 characters and there cna be up to 80 tags
+*Artist can be up to 60 characters long   \
+*Tags can be up to 50 characters long and there can be up to 120 tags
 
 ```http
 POST /images
