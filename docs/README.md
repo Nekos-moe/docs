@@ -12,7 +12,7 @@ All API request use the base URL `https://nekos.moe/api/{version}/`
 
 |API version|Status|
 |---|---|
-|1|Pre-release|
+|v1|Pre-release|
 
 All 3rd-party applications using the API should set a user agent that identifies their application.   \
 Example: `User-Agent: NekosBot (nekosbot.com, v1.2.4)`
