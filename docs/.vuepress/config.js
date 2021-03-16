@@ -34,24 +34,18 @@ module.exports = {
 			}
 		],
 		sidebar: {
-			'/': genSidebarConfig()
+			'/': [{
+				title: 'Docs',
+				collapsable: false,
+				children: [
+					'',
+					'structures',
+					'errors',
+					'auth',
+					'images',
+					'users'
+				]
+			}]
 		}
 	}
-}
-
-function genSidebarConfig() {
-	return [
-		{
-			title: 'Docs',
-			collapsable: false,
-			children: [
-				'',
-				'structures',
-				'errors',
-				'auth',
-				'images',
-				'users'
-			]
-		}
-	]
 }
