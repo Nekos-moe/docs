@@ -19,18 +19,21 @@ Example: `User-Agent: NekosBot (nekosbot.com, v1.2.4)`
 
 ## Ratelimits
 
-The Nekos.moe API enforces ratelimits to prevent API abuse. Ratelimit information is provided in the headers of all responses to ratelimited endpoints.
+The Nekos.moe API enforces ratelimits to prevent API abuse. Ratelimit information is provided in the headers of all responses to ratelimited endpoints.   \
+All times are in milliseconds.
 
 **Examples:**
 
 ```http
 X-RateLimit-Limit: 5
 X-RateLimit-Remaining: 3
+X-RateLimit-Reset: 1615865451733
 ```
 
 ```http
 X-RateLimit-Limit: 5
 X-RateLimit-Remaining: 0
+X-RateLimit-Reset: 1615865451733
 Retry-After: 1354
 ```
 
